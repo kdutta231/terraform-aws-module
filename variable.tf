@@ -43,7 +43,7 @@ variable "ssh_key_name" {
   default = "mykey" 
 }
 variable "ssh_key_path" {
-  default = file("./aws.pub")
+  default = null
 }
 variable "instance_type" {
   default = "t2.micro"
